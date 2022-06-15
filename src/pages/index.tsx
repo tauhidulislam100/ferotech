@@ -222,17 +222,17 @@ const Home: NextPage = () => {
       <Faq />
       <div className="py-24 bg-white">
         <div className="container">
-          <div className='max-w-[1438px] mx-auto news-latter-bg px-14 mdMax:px-4 smMax:py-4'>
+          <div className='max-w-[1438px] mx-auto news-latter-bg px-14 mdMax:px-4 smMax:py-6'>
             <div className="flex items-center justify-between md:h-[214px] smMax:h-auto smMax:flex-col">
               <div className="flex items-center">
-                <img src="/img/news.png" alt="news-latter-icon" className="max-w-full object-cover" />
-                <h2 className='text-white ml-8 font-sans font-bold text-[25.8475px] mdMax:ml-4 mdMax:text-lg'>Subcribe to our Newsletter</h2>
+                <img src="/img/news.png" alt="news-latter-icon" className="max-w-full object-cover smMax:hidden" />
+                <h2 className='text-white ml-8 font-sans font-bold text-[25.8475px] mdMax:ml-4 mdMax:text-lg smMax:ml-0 smMax:text-xl'>Subcribe to our Newsletter</h2>
               </div>
-              <div className="flex items-center relative w-[590px] mdMax:w-[60%] max-w-[590px] smMax:max-w-full smMax:w-full smMax:mt-4 h-[79.74px]">
+              <div className="flex items-center relative w-[590px] mdMax:w-[60%] max-w-[590px] smMax:max-w-full smMax:w-full smMax:mt-4 h-[79.74px] smMax:h-[60px]">
                 <input type="text" className="w-full h-full rounded-full border-none px-4 py-2 bg-[#ECECEC] focus:outline-none inline-flex" placeholder="Enter your email address" />
-                <button className="bg-secondary text-white h-[66.45px] rounded-full px-4 py-2 absolute right-2 top-1.7 font-sans font-bold text-[19px] mdMax:text-base smMax:px-2 flex items-center">
-                  <span className="text-white mr-6 mdMax:mr-4">Subscribe</span>
-                  <div className='w-[44px] h-[47px] bg-white text-secondary grid place-items-center text-base rounded-full'>
+                <button className="bg-secondary text-white h-[66.45px] smMax:h-10 rounded-full px-4 py-2 absolute right-2 top-1.7 font-sans font-bold text-[19px] mdMax:text-base smMax:text-sm smMax:px-3 flex items-center">
+                  <span className="text-white mr-6 mdMax:mr-4 smMax:mr-0">Subscribe</span>
+                  <div className='w-[44px] h-[47px] bg-white text-secondary grid place-items-center text-base rounded-full smMax:hidden'>
                     <ArrowRight />
                   </div>
                 </button>

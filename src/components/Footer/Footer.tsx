@@ -19,29 +19,29 @@ const Footer = ({triggerCalendly}: {triggerCalendly:()=>void}) => {
                         Request An Engineer
                     </button>
                 </div>
-                <div className="grid grid-cols-3 smMax:grid-cols-1 smMax:gap-y-8 smMax:place-items-start gap-4 border-t border-[#2B0A49] pt-16">
-                    <div className='text-[#E0E0E0]'>
-                        <img src="/img/logo-white.png" alt="logo" className='max-w-full object-cover h-[45px]' />
-                        <div className='flex items-center mt-4 mb-2'>
+                <div className="grid grid-cols-3 smMax:grid-cols-1 smMax:gap-y-8 smMax:place-items-center gap-4 mdMax:gap-2 border-t border-[#2B0A49] pt-16">
+                    <div className='text-[#E0E0E0] text-center w-full mdMax:text-sm'>
+                        <img src="/img/logo-white.png" alt="logo" className='max-w-full object-cover h-[45px] smMax:mx-auto' />
+                        <div className='flex items-center mt-4 mb-3 smMax:justify-center'>
                             <span className='mr-2'>
                                 <Phone />
                             </span>
-                            <span>(239) 555-0108</span>
+                            <span  className='smMax:text-sm'>(239) 555-0108</span>
                         </div>
-                        <div className='flex items-center mb-2'>
+                        <div className='flex items-center mb-3 smMax:justify-center'>
                             <span className='mr-2'>
                                 <Mail />
                             </span>
-                            <span>kenzi.lawson@example.com</span>
+                            <a href='mailto:feminefa@gmail.com'  className='smMax:text-sm'>feminefa@gmail.com</a>
                         </div>
-                        <div className='flex items-center'>
+                        <div className='flex items-center smMax:justify-center mdMax:items-start'>
                             <span className='mr-2'>
                                 <Marker />
                             </span>
-                            <span>2972 Westheimer Rd. Santa Ana, Illinois 85486 </span>
+                            <span className='smMax:text-xs'>2972 Westheimer Rd. Santa Ana, Illinois 85486 </span>
                         </div>
                     </div>
-                    <div>
+                    <div className='text-center'>
                         <h4 className='text-white text-[21px] font-medium font-commissioner mb-4'>Quick Link</h4>
                         <ul className='list-none text-[#E0E0E0]'>
                             <li className='mb-2'>
@@ -61,7 +61,7 @@ const Footer = ({triggerCalendly}: {triggerCalendly:()=>void}) => {
                             </li>
                         </ul>
                     </div>
-                    <div className='max-w-[260px]'>
+                    <div className='max-w-[260px] smMax:w-full smMax:text-center'>
                         <h4 className='text-white text-[21px] font-medium font-commissioner mb-4'>Follow Us</h4>
                         <div className="grid grid-cols-4 gap-4 items-center mt-4 cursor-pointer">
                            <div className='w-[51px] h-[51px] rounded-full border-2 border-white border-opacity-20 grid place-items-center hover:bg-primary'>
