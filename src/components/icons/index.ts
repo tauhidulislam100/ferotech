@@ -1,0 +1,15 @@
+export { default as Matching } from './Matching';
+export { default as Executation } from './Executation';
+export { default as Prototyping } from './Prototyping';
+export { default as Delivery } from './Delivery';
+export { default as Star } from './Star'; 
+export { default as Plus } from './Plus';
+export { default as Minus } from './Minus';
+export { default as ArrowRight } from './ArrowRight';
+export { default as Instagram } from './Instagram';
+export { default as Facebook } from './Facebook';
+export { default as Twitter } from './Twitter';
+export { default as LinkedIn } from './LinkedIn';
+export { default as Mail } from './Mail';
+export { default as Phone } from './Phone';
+export { default as Marker } from './Marker';
