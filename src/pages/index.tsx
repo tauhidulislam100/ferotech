@@ -223,7 +223,7 @@ const Home: NextPage = () => {
       <div className="py-24 bg-white">
         <div className="container">
           <div className='max-w-[1438px] mx-auto news-latter-bg px-14 mdMax:px-4 smMax:py-4'>
-            <div className="flex items-center justify-between mdMax:h-[214px] smMax:h-auto smMax:flex-col">
+            <div className="flex items-center justify-between md:h-[214px] smMax:h-auto smMax:flex-col">
               <div className="flex items-center">
                 <img src="/img/news.png" alt="news-latter-icon" className="max-w-full object-cover" />
                 <h2 className='text-white ml-8 font-sans font-bold text-[25.8475px] mdMax:ml-4 mdMax:text-lg'>Subcribe to our Newsletter</h2>
